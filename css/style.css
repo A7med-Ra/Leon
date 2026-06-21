@@ -170,16 +170,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
 /* HEADER START */
-
-
 
 .header .container {
 
@@ -397,18 +388,24 @@ body {
 
 /* LANDING PAGE START */
 
-.landing {
+/* .landing {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.591), rgba(0, 0, 0, 0.557)), url(../img/home.jpg);
-
     background-size: cover;
-
     height: calc(100dvh - 64px);
-
     position: relative;
+    transition: 0.5s linear;
 
 
 
+} */
+.landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.591), rgba(0, 0, 0, 0.557)), url(../img/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;
+    position: relative;
 }
 
 
@@ -446,11 +443,6 @@ body {
     margin: 0px;
 
     font-size: 50px;
-
-
-
-
-
 
 
 }
