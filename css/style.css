@@ -29,6 +29,7 @@
 html {
     overflow-x: hidden;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -1188,9 +1189,7 @@ body {
 
 
 .contact .icon {
-
     color: #2C4755;
-
 }
 
 
